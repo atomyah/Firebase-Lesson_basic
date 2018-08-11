@@ -1,0 +1,41 @@
+[debug] [2018-08-11T05:37:04.946Z] ----------------------------------------------------------------------
+[debug] [2018-08-11T05:37:04.949Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-11T05:37:04.949Z] CLI Version:   4.0.3
+[debug] [2018-08-11T05:37:04.949Z] Platform:      linux
+[debug] [2018-08-11T05:37:04.949Z] Node Version:  v8.10.0
+[debug] [2018-08-11T05:37:04.949Z] Time:          Sat Aug 11 2018 14:37:04 GMT+0900 (JST)
+[debug] [2018-08-11T05:37:04.949Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-11T05:37:04.959Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-11T05:37:04.960Z] > authorizing via signed-in user
+[debug] [2018-08-11T05:37:04.962Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-11T05:37:04.962Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/xadblhZmzT92LqjwsjCt1I3u22rb0IfgGhvfCcZHPGg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Aug 11 2018 14:37:04 GMT+0900 (JST)
+[debug] [2018-08-11T05:37:06.383Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T05:37:06.393Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/codegrid-practice  
+  
+ Sat Aug 11 2018 14:37:06 GMT+0900 (JST)
+[debug] [2018-08-11T05:37:08.492Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T05:37:08.494Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/codegrid-practice/tokens  
+  
+ Sat Aug 11 2018 14:37:08 GMT+0900 (JST)
+[debug] [2018-08-11T05:37:09.385Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-11T05:37:09.388Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/codegrid-practice  
+  
+ Sat Aug 11 2018 14:37:09 GMT+0900 (JST)
+[debug] [2018-08-11T05:37:10.538Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/atom/Git/Firebase_practice'...
+[info] 
+[debug] [2018-08-11T05:37:10.544Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/123579714880/clients/_:getWebAppConfig  
+  
+ Sat Aug 11 2018 14:37:10 GMT+0900 (JST)
+[debug] [2018-08-11T05:37:13.261Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
